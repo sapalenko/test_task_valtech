@@ -1,0 +1,163 @@
+body {
+	font-family: 'Abel', sans-serif;
+	background: #FFFFFF;
+	padding-top: 70px;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255, 0.8);
+}
+
+.navbar .navbar-brand {
+	margin-right: 490px;
+}
+
+.navbar .nav-item.active {
+	margin-right: 40px;
+}
+
+.navbar .nav-item {
+	margin-right: 40px;
+}
+
+.navbar .nav-item .nav-link {
+	font-size: 16px;
+	color: #202020;
+	padding: 0;
+}
+
+.navbar .nav-item.active,
+.navbar .nav-item:hover{
+	border-bottom: 2px solid #00C8FF;
+}
+
+button.btn.contact {
+	background: #00C8FF;
+    border-radius: 5px;
+    width: 100px;
+    height: 24px;
+    line-height: 0px;
+}
+
+button.btn.contact a {
+	color: #fff;
+	font-size: 16px;
+	text-decoration-color: #00C8FF; 
+}
+
+.info-block {
+	margin-top: 105px;
+    margin-bottom: 70px;
+}
+
+.info-block h1 {
+    text-align: center;
+    font-size: 58px;
+    color: #202020;
+}
+
+.info-block p {
+	text-align: center;
+    font-size: 32px;
+    line-height: 57px;
+}
+
+button.btn.contact2{
+	width: 235px;
+	height: 60px;
+	background: #00C8FF;
+	border-radius: 10px;
+	box-shadow: 4px 2px 4px rgba(0,0,0,0.5);
+}
+
+button.btn.contact2 a {
+	color: #FFFFFF;
+	font-size: 28px;
+	text-decoration-color: #00C8FF;
+}
+
+.title-block {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 96px;
+}
+.text {
+   position: absolute;
+   left: 185px;
+   top: 33px;
+   background: #fff;
+   padding: 0px 21px;
+   color: #C2C2C2;
+   font-size: 20px;
+}
+
+.logo-area .logo {
+	text-align: center;
+	margin-bottom: 63px;
+}
+
+.service-item .service-img {
+	float: left;
+	margin-right: 67px;
+}
+
+.service-item .info-item {
+	overflow: hidden;
+}
+
+.service-item .info-item h3 {
+	color: #000;
+	font-size: 28px;
+}
+
+.service-item .info-item p {
+	color: #B2B2B2;
+	font-size: 16px;
+}
+
+.info-employee .avatar {
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 60px;
+}
+
+.info-employee .name-employee h3 {
+	color: #202020;
+	font-size: 28px;
+}
+
+.info-employee .name-employee p {
+	color: #B2B2B2;
+	font-size: 14px;
+}
+
+footer {
+	background: #F7F7F7;
+}
+
+footer .brand {
+	margin-top: 29px;
+	margin-bottom: 29px; 
+}
+
+footer .social-icons {
+	list-style: none;
+	margin-top: 38px;
+	margin-bottom: 36px;
+}
+
+footer .social-icons .icon-item {
+	display: inline-block;
+}
+
+footer .icon-item a {
+	font-size: 24px;
+	color: #B2B2B2;
+	padding-right: 40px;
+}
