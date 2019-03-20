@@ -24,6 +24,7 @@ header {
 
 .navbar .nav-item {
 	margin-right: 40px;
+	border-bottom: none;
 }
 
 .navbar .nav-item .nav-link {
@@ -32,10 +33,12 @@ header {
 	padding: 0;
 }
 
-.navbar .nav-item.active,
+.navbar .nav-link:active,
 .navbar .nav-item:hover{
 	border-bottom: 2px solid #00C8FF;
 }
+
+
 
 button.btn.contact {
 	background: #00C8FF;
@@ -51,6 +54,10 @@ button.btn.contact a {
 	text-decoration-color: #00C8FF; 
 }
 
+button.btn.contact:hover {
+	border-bottom: 2px solid darkcyan;
+}
+
 .info-block {
 	margin-top: 105px;
     margin-bottom: 70px;
@@ -60,20 +67,25 @@ button.btn.contact a {
     text-align: center;
     font-size: 58px;
     color: #202020;
+    margin-bottom: 60px;
 }
 
 .info-block p {
-	text-align: center;
+	text-align: left;
     font-size: 32px;
     line-height: 57px;
+    margin-bottom: 150px
 }
 
-button.btn.contact2{
-	width: 235px;
-	height: 60px;
+button.btn.contact2 {
+    padding: 13px 52px;
 	background: #00C8FF;
 	border-radius: 10px;
-	box-shadow: 4px 2px 4px rgba(0,0,0,0.5);
+	box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+button .btn.contact2:hover {
+	border: 5px solid #00C8FF;
 }
 
 button.btn.contact2 a {
@@ -102,13 +114,28 @@ button.btn.contact2 a {
 	margin-bottom: 63px;
 }
 
+.service-item {
+	margin-bottom: 69px;
+}
+
 .service-item .service-img {
 	float: left;
-	margin-right: 67px;
+	margin-right: 48px;
+	width: 80px;
+	height: 60px
+}
+
+.service-item .service-img img {
+	display: block;
+	margin: 0 auto;
 }
 
 .service-item .info-item {
 	overflow: hidden;
+}
+
+.service-item .info-item a {
+	text-decoration-color: #00C8FF;
 }
 
 .service-item .info-item h3 {
@@ -118,7 +145,10 @@ button.btn.contact2 a {
 
 .service-item .info-item p {
 	color: #B2B2B2;
-	font-size: 16px;
+    font-size: 16px;
+    text-align: justify;
+    width: 300px;
+	height: 74px;
 }
 
 .info-employee .avatar {
